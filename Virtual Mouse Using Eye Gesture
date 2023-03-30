@@ -1,5 +1,3 @@
-# Build a Mouse Using Your Eyes
-
 import cv2
 import mediapipe as mp
 import pyautogui
@@ -34,4 +32,3 @@ while True:
     
     cv2.imshow('Eye Controlled Mouse',frame)
     cv2.waitKey(1)
-    
