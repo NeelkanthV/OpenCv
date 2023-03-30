@@ -1,5 +1,3 @@
-# Control Mouse with Your Fingers 
-
 import cv2
 import mediapipe as mp
 import pyautogui
@@ -41,4 +39,3 @@ while True:
     
     cv2.imshow('Virtual Mouse',frame)
     cv2.waitKey(1)
-    
